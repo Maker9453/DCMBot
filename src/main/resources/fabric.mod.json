@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "dcm-fabric",
+  "version": "${version}",
+
+  "name": "D.C.M Mod-Fabric",
+  "description": "Thank you for downloading! It's my first mod.",
+  "authors": [
+    "PepperSauce"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/picture/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.peppersauce.ModPart.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
